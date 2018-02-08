@@ -1,7 +1,5 @@
 
 # Write a speak_to_grandma method.
-convo = gets.strip
-
 def speak_to_grandma(convo)
   convo = convo.to_s
   if convo == "I LOVE YOU GRANDMA!"
