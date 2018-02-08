@@ -1,6 +1,6 @@
 
 # Write a speak_to_grandma method.
-def speak_to_grandma(x)
+def speak_to_grandma("x")
   x = x.to_s
   if input == input.upcase
     puts "NO, NOT SINCE 1938!"
