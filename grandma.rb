@@ -1,6 +1,7 @@
 
 # Write a speak_to_grandma method.
-def speak_to_grandma("x")
+def speak_to_grandma(x)
+  x = x.to_s
   if x == x.upcase
     puts "NO, NOT SINCE 1938!"
   elsif x == "I LOVE YOU GRANDMA!"
