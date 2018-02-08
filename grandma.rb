@@ -1,11 +1,11 @@
 
 # Write a speak_to_grandma method.
-def speak_to_grandma(x)
-  x = x.to_s
-  if x == x.upcase
-    puts "NO, NOT SINCE 1938!"
-  elsif x == "I LOVE YOU GRANDMA!"
+def speak_to_grandma(convo)
+  convo = words.to_s
+  if words == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  elsif words == words.upcase
+    puts "NO, NOT SINCE 1938!"
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
