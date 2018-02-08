@@ -1,10 +1,10 @@
 
 # Write a speak_to_grandma method.
 def speak_to_grandma(convo)
-  convo = words.to_s
-  if words == "I LOVE YOU GRANDMA!"
+  convo = convo.to_s
+  if convo == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif words == words.upcase
+  elsif convo == convo.upcase
     puts "NO, NOT SINCE 1938!"
   else
     puts "HUH?! SPEAK UP, SONNY!"
